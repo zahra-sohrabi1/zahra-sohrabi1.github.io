@@ -1,0 +1,15 @@
+/* #ul25{
+    z-index: 1;
+}
+.img24{
+    z-index: -1;
+} */
+body{
+    height: 100vh;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
