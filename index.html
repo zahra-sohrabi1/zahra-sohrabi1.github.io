@@ -6,89 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="css/bootstrap-5.2.0-dist/css/bootstrap.css">
+        crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="css/bootstrap-5.2.0-dist/css/bootstrap.css"> -->
     <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/0269661444.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="w-100">
-    <header>
-        <!-- <div class="col-12 test position-relative">
-            <a href="#"><img src="images/1.jpg" class="w-100"></a>
-        </div> -->
-        <div class="container d-flex justify-content-center">
-            <ul class="d-flex justify-content-center">
-                <li  class="pe-3 mt-3 fs-4"><a href="#">Home</a></li>
-                <li class="pe-3 mt-3 fs-4"><a href="#">Magazine</a></li>
-                <li class="pe-3 mt-3 fs-4"><a href="#">Products</a></li>
-                <li class="pe-3 mt-3 fs-4"><a href="#">Events</a></li>
-                <li class="pe-3 mt-3 fs-4"><a href="#">Esports</a></li>
-                <li class="pe-3 mt-3 fs-4"><a href="#">Models</a></li>
-                <li class="pe-3 mt-3 fs-4"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li class="pe-3 mt-3 fs-4 border-end border-2"><a href="#"></a></li>
-            </ul>
-            <div class="d-flex">
-                <a href="#"><i class="fa-solid fa-earth-americas"></i></a>
-                <a href="#">BMW in your country</a>
-            </div>
-        </div>
-    </header>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="container-fluid">
+    <div class="container-fluid ps-0 pe-0 custom-overflow">
         <div class="row">
-            <div class="col-xxl-12 px-0 pb-1 position-relative">
-                <div >
-                    <a href="#"><img class="w-100 img24" src="images/1.jpg"></a>
-                </div>
+            <div class="col-12 px-0">
+                <div class="top-banner">
+                    <div class="menu d-flex justify-content-center text-white">
+                        <div class="menu-items d-flex flex-column">
+                            <div class="items d-flex border-bottom">
+                                <ul class="d-flex justify-content-center item-list">
+                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list active" href="#">Home</a></li>
+                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list " href="#">Magazine</a></li>
+                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list " href="#">Products</a></li>
+                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list" href="#">Events</a></li>
+                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list " href="#">Esports</a></li>
+                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list " href="#">Models</a></li>
+                                    <li class="ps-4 mt-3 fs-4"><a class="text-white" href="#">
+                                            <i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </li>
+                                    <li class="ps-5 mt-3 fs-4 border-end border-2"><a href="#"></a></li>
+                                </ul>
+                            </div>
+                            <div class="sheer d-flex justify-content-end">
+                                <span>Sheer Driving <strong>Pleasure</strong></span>
+                            </div>
+                        </div>
+                        <div class="d-flex child45 flex-column justify-content-end text-white bg-secondary">
+                            <p class="pb-3"> Circular power </p>
+                            <h5 class="pb-4"> Touring into the future with Coldplay </h5>
+                            <input type="button" value=" Read more" class=" button">
+                        </div>
 
-                <div class="d-flex position-absulote ">
-                    <ul id="ul25 d-flex">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Magazine</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Esports</a></li>
-                        <li><a href="#">Models</a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                    </ul>
+                        <div class="logo">
+                            <img src="
+data:image/png;base64,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"
+                                alt="">
+                        </div>
+
+                    </div>
+
+                    <a href="#">
+                        <img class="w-100 img24 mb-1" src="images/1.jpg">
+                    </a>
                 </div>
             </div>
         </div>
-    </div> -->
-
-    <!-- <div class="row">
-        <div class="col-xxl-6 ps-0"><a href="#"><img class="w-100" src="images/2.jpg"></a></div>
-        <div class="col-xxl-6 ps-0 pe-0" px-0><a href="#"><img class="w-100" src="images/3.jpg"></a></div>
-    </div> -->
-    </div>
-
 </body>
 
 </html>
