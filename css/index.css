@@ -311,13 +311,23 @@ a {
     overflow: hidden;
 }
 
-@media all and (max-width:1199px) {
+@media all and (max-width:767px) {
     .showmore {
-        width: 2800px;
+        width: 707px;
         height: 50px;
         background-color: transparent;
         border: 2px solid white;
         margin: 10px auto;
+    }
+
+    .ordercopy {
+        width: 707px;
+        height: 50px;
+    }
+
+    .box3 {
+        height: 100%;
+
     }
 
 }
