@@ -20,584 +20,577 @@
 
     <div class="container-fluid ps-0 pe-0 overflow-hidden">
         <div class="row">
-            <div class="col-12 px-0">
-                <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark position-fixed w-100">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mx-auto mb-2 mb-md-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#">Dropdown</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Disabled</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav> -->
-                <div class="top-banner">
-                    <div class="menu d-flex justify-content-center text-white">
-                        <div class="menu-items d-flex flex-column">
-                            <div class="items d-flex border-bottom">
-                                <ul class="d-flex justify-content-center item-list">
-                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list active" href="#">Home</a></li>
-                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list " href="#">Magazine</a></li>
-                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list " href="#">Products</a></li>
-                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list" href="#">Events</a></li>
-                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list " href="#">Esports</a></li>
-                                    <li class="mt-3 fs-4"><a class="pe-3 menu-list " href="#">Models</a></li>
-                                    <li class="ps-4 mt-3 fs-4"><a class="text-white" href="#">
-                                            <i class="fa-solid fa-magnifying-glass"></i></a>
+            <div class="col-12 px-0 parent62">
+                <div class="top-banner parent62">
+                    <nav class="navbar navbar-expand-md navbar-dark position-fixed w-100">
+                        <div class="container-fluid">
+                            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                                <ul class="navbar-nav mx-auto mb-2 mb-md-0 border-bottom">
+                                    <!--                                <li class="nav-item d-none d-md-block">-->
+                                    <!--                                     <a class="nav-link menu-list active" aria-current="page" href="#">search </a>-->
+                                    <!--                                </li>-->
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-list" href="#">Home</a>
                                     </li>
-                                    <li class="ps-5 mt-3 fs-4 border-end border-2"><a href="#"></a></li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-list" href="#">Magazine</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link menu-list" href="#">Products</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-list" href="#">Events</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-list" href="#">Esports</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-list" href="#">Models</a>
+                                    </li>
+                                    <li class="nav-item ps-4 d-none d-md-block">
+                                        <a class="nav-link text-white" href="#"><i
+                                                class="fa-solid fa-magnifying-glass"></i></a>
+                                    </li>
+                                    <li class="nav-item ps-4 pb-3 mt-1 fs-4 border-end border-1 d-none d-md-block">
+                                        <a class="nav-link" href="#"></a>
+                                    </li>
+                                    <li class="nav-item ps-4 d-none d-md-block">
+                                        <a class="nav-link text-white" href="#"><i
+                                                class="fa-solid fa-earth-americas pe-2"></i>BMW in your country</a>
+                                    </li>
+                                    <!-- <div class="d-flex justify-content-center align-items-center logo">
+                                    <a href="#"><img src="
+                                        data:image/png;base64,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"
+                                                                        alt=""></a>
+                                </div> -->
                                 </ul>
+
                             </div>
-                            <div class="sheer d-flex justify-content-end">
-                                <span>Sheer Driving <strong>Pleasure</strong></span>
-                            </div>
+                            <!-- <div class="sheer d-flex justify-content-end">
+                            <span>Sheer Driving <strong>Pleasure</strong></span>
+                        </div> -->
+
                         </div>
-                        <div class="logo">
-                            <img src="
-data:image/png;base64,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"
-                                alt="">
-                        </div>
+                    </nav>
+                </div>
+                <div class="d-sm-flex d-none child45 flex-column justify-content-end text-white position-absolute">
+                    <p class="pb-md-3 d-flex  fs-md-3"> Circular power </p>
+                    <h5 class="pb-md-4 fs-4"> Touring into the future with Coldplay </h5>
+                    <input type="button" value=" Read more" class=" button">
+                </div>
 
-                    </div>
+                <a href="#" class="mysetting">
+                    <img class="w-100 img-fluid  mysetting2" src="images/1.jpg">
+                </a>
 
 
-                    <a href="#">
-                        <img class="w-100 img-fluid mb-1 " src="images/1.jpg">
-                    </a>
-
-                    <div class="d-flex child45 flex-column justify-content-end text-white position-absolute">
-                        <p class="pb-3 fs-3"> Circular power </p>
-                        <h5 class="pb-4 fs-1"> Touring into the future with Coldplay </h5>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 p-0 pe-md-1 ps-0 mt-1 overflow-hidden">
+                <div class="parent62 d-flex overflow-hidden">
+                    <div class="d-sm-flex d-none child63 flex-column text-white">
+                        <p class="pb-lg-1 fs-md-3"> Circular power </p>
+                        <h5 class="pb-lg-4 fs-sm-4"> Touring into the future with Coldplay </h5>
                         <input type="button" value=" Read more" class=" button">
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 px-0 overflow-hidden">
-                    <div class="parent62 d-flex overflow-hidden">
-                        <div class="d-flex child63 flex-column text-white">
-                            <p class="pb-3 fs-3"> Circular power </p>
-                            <h5 class="pb-4 fs-2"> Touring into the future with Coldplay </h5>
-                            <input type="button" value=" Read more" class=" button">
-                        </div>
-                        <div class="overflow-hidden test1 "><a class="d-flex zoom overflow-hidden w-100" href="#">
-                                <a href="#"><img class="w-100 zoom-img img24 p-md-1 ps-md-0" src="images/2.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 px-0">
-                    <div class="parent62 d-flex">
-                        <div class="d-flex child63 flex-column text-white">
-                            <p class="pb-1 fs-3"> BMW BERLIN-MARATHON </p>
-                            <h5 class="pb-4 fs-2"> The joy of pushing the limits </h5>
-                            <input type="button" value=" Read more" class=" button">
-                        </div>
-                        <a href="#"><img class="w-100  img24 p-md-1 pe-md-0" src="images/3.jpg"></a>
+                    <div class="overflow-hidden test1 "><a class="d-flex overflow-hidden w-100" href="#"></a>
+                        <a href="#" class="mysetting"><img class="img-fluid img24 mysetting2" src="images/2.jpg"></a>
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 p-0 pe-0 ps-md-1 mt-1 overflow-hidden">
+                <div class="parent62 d-flex">
+                    <div class="d-sm-flex d-none child63 flex-column text-white">
+                        <p class="pb-lg-1 fs-md-3"> BMW BERLIN-MARATHON </p>
+                        <h5 class="pb-lg-4 fs-sm-4"> The joy of pushing the limits </h5>
+                        <input type="button" value=" Read more" class=" button">
+                    </div>
+                    <a href="#" class="mysetting"><img class="w-100 img24 mysetting2" src="images/3.jpg"></a>
+                </div>
+            </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="Thirdrow pt-4">
-                        <div class="generic">
-                            <a href="#"><img src="images/4.jpg" class="w-100"></a>
-                            <div class="Minor  d-flex  flex-column">
-                                <div class="d-flex justify-content-center flex-column mx-auto Minor-internal">
-                                    <p class="mt-3 fs-2"> BMW presents </p>
-                                    <h2 class="mb-2 font"> FREUDE.FOREVER </h2>
-                                    <input type="button" value="  Order copy "
-                                        class=" button mt-3 border-dark text-dark mx-auto ordercopy">
-                                </div>
-
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="Thirdrow pt-4 d-flex">
+                    <div class="generic d-flex flex-column ">
+                        <a href="#"><img src="images/4.jpg" class="img-fluid"></a>
+                        <div class="Minor  d-flex  flex-column">
+                            <div class="d-flex justify-content-center flex-column Minor-internal">
+                                <p class="mt-3 fs-2"> BMW presents </p>
+                                <h2 class="mb-2 font"> FREUDE.FOREVER </h2>
+                                <input type="button" value="  Order copy "
+                                    class=" button mt-3 border-dark text-dark mx-auto ordercopy">
                             </div>
 
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 px-0">
-                    <div class="black-box w-100 bg-dark d-flex align-items-center">
-                        <div class="black-box-text text-white">
-                            <h2 class="pb-2">The BMW <br>Podcast:<br> Changing <br>Lanes</h2>
-                            <p class="pb-2">"Changing Lanes” is the official podcast of BMW. Featuring new episodes each
-                                week, in which our hosts take you on exciting journeys and talk about innovative
-                                technologies, lifestyle, design, cars and more. Find and subscribe to Changing Lanes on
-                                all
-                                major podcasting platforms. </p>
-                            <input type="button" value="  Listen now " class=" button">
-                        </div>
-                        <div class="black-box-img  d-flex flex-row">
-                            <div class="teaser bg-secondary">
-                                <div class="black-box-img-text text-white d-flex flex-column mt-2">
-                                    <b>Audio column</b>
-                                    <h5>The future of industrial technology trends</h5>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-0">
+                <div class="black-box w-100 bg-dark d-flex align-items-center ">
+                    <div class="black-box-text text-white">
+                        <h2 class="pb-2">The BMW <br>Podcast:<br> Changing <br>Lanes</h2>
+                        <p class="pb-2">"Changing Lanes” is the official podcast of BMW. Featuring new episodes each
+                            week, in which our hosts take you on exciting journeys and talk about innovative
+                            technologies, lifestyle, design, cars and more. Find and subscribe to Changing Lanes on
+                            all
+                            major podcasting platforms. </p>
+                        <input type="button" value="  Listen now " class=" button">
+                    </div>
+                    <div class="black-box-img parent62">
+                        <div class="teaser">
+                            <div class="black-box-img-text text-white d-flex flex-column mt-2">
+                                <b>Audio column</b>
+                                <h5>The future of industrial technology trends</h5>
 
-                                </div>
-                                <a href="#"><img src="images/5.jpg"></a>
                             </div>
-                            <div class="teaser bg-secondary">
-                                <div class="black-box-img-text remove text-white d-flex flex-column">
-                                    <b>Audio column</b>
-                                    <h5>The future of audio and acoustics </h5>
-                                </div>
-                                <a href="#"><img src="images/6.jpg"></a>
+                            <a href="#" class="mysetting"><img src="images/5.jpg" class="mysetting2"></a>
+                        </div>
+                        <div class="teaser">
+                            <div class="black-box-img-text remove text-white d-flex flex-column">
+                                <b>Audio column</b>
+                                <h5>The future of audio and acoustics </h5>
                             </div>
-                            <div class="teaser bg-secondary">
-                                <div class="black-box-img-text text-white d-flex flex-column mt-4">
-                                    <b>Audio column</b>
-                                    <h5>The future of circularity </h5>
-                                </div>
-                                <a href="#"><img src="images/7.jpg"></a>
+                            <a href="#" class="mysetting"><img src="images/6.jpg" class="mysetting2"></a>
+                        </div>
+                        <div class="teaser">
+                            <div class="black-box-img-text text-white d-flex flex-column mt-4">
+                                <b>Audio column</b>
+                                <h5>The future of circularity </h5>
                             </div>
-                            <div class="teaser bg-secondary">
-                                <div class="black-box-img-text text-white d-flex flex-column mt-4">
-                                    <b>Audio column</b>
-                                    <h5>The future of visual arts </h5>
-                                </div>
-                                <a href="#"><img src="images/8.jpg"></a>
+                            <a href="#" class="mysetting"><img src="images/7.jpg" class="mysetting2"></a>
+                        </div>
+                        <div class="teaser">
+                            <div class="black-box-img-text text-white d-flex flex-column mt-4">
+                                <b>Audio column</b>
+                                <h5>The future of visual arts </h5>
                             </div>
-                            <div class="teaser bg-secondary">
-                                <div class="black-box-img-text remove text-dark d-flex flex-column">
-                                    <b>Young leaders</b>
-                                    <h5>Acting today, changing tomorrow </h5>
-                                </div>
-                                <a href="#"><img src="images/9.jpg"></a>
+                            <a href="#" class="mysetting"><img src="images/8.jpg" class="mysetting2"></a>
+                        </div>
+                        <div class="teaser">
+                            <div class="black-box-img-text remove text-dark d-flex flex-column">
+                                <b>Young leaders</b>
+                                <h5>Acting today, changing tomorrow </h5>
                             </div>
+                            <a href="#" class="mysetting"><img src="images/9.jpg" class="mysetting2"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="box-white w-100 d-flex justify-content-center">
-            <div class="box-white-text  d-flex flex-column justify-content-center align-items-center  text-dark">
-                <p class="fs-2"> BMW in your country </p>
-                <h2 class="font"> ALL BMW MODELS </h2>
-                <a class="text-dark fs-2" href="#"> > Find your BMW </a>
-
-            </div>
+    </div>
+    <div class="box-white w-100 d-flex justify-content-center">
+        <div class="box-white-text  d-flex flex-column justify-content-center align-items-center  text-dark">
+            <p class="fs-2"> BMW in your country </p>
+            <h2 class="font"> ALL BMW MODELS </h2>
+            <a class="text-dark fs-2" href="#"> > Find your BMW </a>
 
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-8 px-0">
-                    <div class="box1 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column ps-4 pb-4 ">
+
+
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-8 p-0 pb-1 pb-md-0 pe-md-1">
+                <div class="box1 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column ps-4 pb-4 ">
+                        <a class="text-white fs-6 fs-md-3" href="#"><b> Audio column </b>
+                            <h5> The future of industrial technology trends </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid  mysetting2" src="images/10.jpg"></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-0 ">
+
+                <div class="d-flex flex-row flex-md-column ">
+                    <div class="box2 d-flex  align-items-end parent62 me-1 me-md-0 mb-1">
+                        <div class="box1-text  d-flex flex-column   ps-lg-4 pb-lg-4">
+                            <a class="text-white fs-6 fs-md-3" href="#"><b> BMW BERLIN-MARATHON </b>
+                                <h5> The joy of pushing the limits </h5>
+                            </a>
+                        </div>
+                        <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/32.jpg"></a>
+                    </div>
+                    <div class="box3 d-flex  align-items-end mb-1 parent62 me-0">
+                        <div class="box1-text  d-flex flex-column  ps-lg-4  pb-lg-4 ">
+                            <a class="text-white" href="#"><b> Circular power </b>
+                                <h5> Touring into the future with Coldplay </h5>
+                            </a>
+                        </div>
+                        <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/11.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-md-4 p-1 pt-0 ps-0">
+                <div class="box4 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#"><b> Dynamic connection </b>
+                            <h5> Discover Japan with a textile artist and the BMW 3 Series </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/12.jpg"></a>
+                </div>
+            </div>
+            <div class="col-md-4 d-md-flex d-none p-1 pt-0 ps-0">
+                <div class="box5 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#"><b> Driven by your cheers </b>
+                            <h5> The dawn of an electric era </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/13.jpg"></a>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 p-1 pt-0 ps-0 pe-0">
+                <div class="box6 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#"><b> BMW M legend </b>
+                            <h5> Jochen Neerpasch: the motorsport mentor </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/14.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 p-0 pe-md-1">
+                <div class="d-flex flex-row flex-md-column">
+                    <div class="box7 d-flex  align-items-end parent62">
+                        <div class="box1-text  d-flex flex-column   ps-lg-5 pb-lg-4">
+                            <a class="text-white" href="#"><b> 50 years: modernity </b>
+                                <h5> Celebrating half a century of BMW innovation </h5>
+                            </a>
+                        </div>
+                        <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/15.jpg"></a>
+                    </div>
+                    <div class="box8 d-flex  align-items-end parent62 ps-1 ps-md-0  pe-md-0 pt-md-1 ">
+                        <div class="box1-text  d-flex flex-column  ps-lg-5 pb-lg-4 ">
+                            <a class="text-white" href="#"><b> New luxury </b>
+                                <h5> Tantris starred restaurant: the future of indulgence </h5>
+                            </a>
+                        </div>
+                        <a href="#" class="mysetting"><img class="img-fluid  mysetting2" src="images/16.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 px-0 pt-1 pt-md-0">
+                <div class="box9 d-flex  align-items-end parent62 pb-1">
+                    <div class="box1-text  d-flex flex-column  ps-5 pb-4 ">
+                        <a class="text-white" href="#"><b> Car design </b>
+                            <h5> Masters of form </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid  mysetting2" src="images/17.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-md-4 p-0 pe-1">
+                <div class="box10 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#"><b> Dream drive </b>
+                            <h5> On the road with the new BMW 8 Series </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/18.jpg"></a>
+                </div>
+            </div>
+            <div class="col-md-4 d-md-flex d-none p-0 pe-1">
+                <div class="box11 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#"><b> Goodbye, BMW i3 </b>
+                            <h5> This love never gets rusty </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/19.jpg"></a>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 p-0 pb-1">
+                <div class="box12 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#">
+                            <i>icon</i>
+                            <b> Audio column </b>
+                            <h5> The future of audio and acoustics </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/20.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-8 p-0 pe-md-1 pb-1 pb-md-0">
+                <div class="box13 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column ps-5 pb-4 ">
+                        <a class="text-white" href="#"><b> BMW Esports Pimp my Rivalry </b>
+                            <h5> Sports meets design </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/21.jpg"></a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-0">
+
+                <div class="d-flex flex-row flex-md-column">
+                    <div class="box14 d-flex  align-items-end parent62 pb-1 pe-1 pe-md-0">
+                        <div class="box1-text  d-flex flex-column   ps-lg-4 pb-lg-4">
+                            <a class="text-white" href="#"><b> Rafael Lozano-Hemmer </b>
+                                <h5> Visualizing the invisible </h5>
+                            </a>
+                        </div>
+                        <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/22.jpg"></a>
+
+                    </div>
+                    <div class="box15 d-flex  align-items-end parent62 pb-md-1">
+                        <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                            <a class="text-white" href="#"><b> Ride with pride  </b>
+                                <h5> Celebrating all colors of Freude </h5>
+                            </a>
+                        </div>
+                        <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/23.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-md-4 p-0 pe-1 pt-0">
+                <div class="box16 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4">
+                        <a class="text-white" href="#"><b> The iX1 Metaverse Experience </b>
+                            <h5> Enter a world full of dreams </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/18.jpg"></a>
+                </div>
+            </div>
+            <div class="col-md-4 d-md-flex d-none p-0 pe-1">
+                <div class="box17 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column ps-4 pb-4 ">
+                        <a class="text-white" href="#"><b> Looks meet feel </b>
+                            <h5> Luxurious comfort zone: the magic of fabrics and materials </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/19.jpg"></a>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 p-0 pb-1">
+                <div class="box18 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#">
+                            <b> THIS IS FORWARDISM </b>
+                            <h5> An audio series with the shapers of our future </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/33.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 p-0 pe-md-1 ">
+                <div class="d-flex flex-row flex-md-column">
+                    <div class="box19 d-flex  align-items-end parent62 pe-1 pe-md-0">
+                        <div class="box1-text  d-flex flex-column   ps-lg-5 pb-lg-4">
+                            <a class="text-white" href="#"><b> Electric fleet </b>
+                                <h5> Cannes, Côte d’Azur and BMW: a camera-ready cast </h5>
+                            </a>
+                        </div>
+                        <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/26.jpg"></a>
+                    </div>
+                    <div class="box20 d-flex  align-items-end pt-md-1 pb-1 parent62">
+                        <div class="box1-text  d-flex flex-column  ps-lg-5 pb-lg-4 ">
                             <a class="text-white" href="#"><b> Audio column </b>
-                                <h5> The future of industrial technology trends </h5>
+                                <h5> The future of circularity </h5>
                             </a>
                         </div>
-                        <a href="#"><img class="w-100 p-1 ps-0" src="images/10.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 px-0 ">
-
-                    <div class="d-flex flex-md-column">
-                        <div class="box2 d-flex  align-items-end">
-                            <div class="box1-text  d-flex flex-column   ps-4 pb-4">
-                                <a class="text-white" href="#"><b> BMW BERLIN-MARATHON </b>
-                                    <h5> The joy of pushing the limits </h5>
-                                </a>
-                            </div>
-                            <a href="#"><video autoplay loop class="w-100 p-1 ps-0 pe-md-0">
-                                    <source
-                                        src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/with-kyoto-320d/withbmw_kyoto_hd_movie.mp4"
-                                        type="video/mp4">
-                                </video></a>
-
-                        </div>
-                        <div class="box3 d-flex  align-items-end">
-                            <div class="box1-text d-flex align-items-end d-flex flex-column  ps-4 pb-md-4 ">
-                                <a class="text-white" href="#"><b> Circular power </b>
-                                    <h5> Touring into the future with Coldplay </h5>
-                                </a>
-                            </div>
-                            <a href="#"><img class="w-100 p-1 ps-md-0 pt-md-0 pe-md-0" src="images/11.jpg"></a>
-                        </div>
+                        <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/27.jpg"></a>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 px-0">
-                    <div class="box4 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#"><b> Dynamic connection </b>
-                                <h5> Discover Japan with a textile artist and the BMW 3 Series </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/12.jpg"></a>
+            <div class="col-12 col-md-8 px-0 pb-1 pb-md-0">
+                <div class="box21 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-5 pb-4 ">
+                        <a class="text-white" href="#"><b> Sustainable journey </b>
+                            <h5> Discover Japan with a horticulturist and the BMW iX </h5>
+                        </a>
                     </div>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="box5 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#"><b> Driven by your cheers </b>
-                                <h5> The dawn of an electric era </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/13.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="box6 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#"><b> BMW M legend </b>
-                                <h5> Jochen Neerpasch: the motorsport mentor </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0 pe-0" src="images/14.jpg"></a>
-                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/31.jpg"></a>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 px-0">
-                    <div class="d-flex flex-column">
-                        <div class="box7 d-flex  align-items-end">
-                            <div class="box1-text  d-flex flex-column   ps-5 pb-4">
-                                <a class="text-white" href="#"><b> 50 years: modernity </b>
-                                    <h5> Celebrating half a century of BMW innovation </h5>
-                                </a>
-                            </div>
-                            <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/15.jpg"></a>
-                        </div>
-                        <div class="box8 d-flex  align-items-end">
-                            <div class="box1-text  d-flex flex-column  ps-5 pb-4 ">
-                                <a class="text-white" href="#"><b> New luxury </b>
-                                    <h5> Tantris starred restaurant: the future of indulgence </h5>
-                                </a>
-                            </div>
-                            <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/16.jpg"></a>
-                        </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-md-4 p-0 pe-1">
+                <div class="box22 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#"><b> 50 years of BMW M </b>
+                            <h5> 7 milestones in the history of BMW M </h5>
+                        </a>
                     </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/28.jpg"></a>
                 </div>
-                <div class="col-8 px-0">
-                    <div class="box9 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-5 pb-4 ">
-                            <a class="text-white" href="#"><b> Car design </b>
-                                <h5> Masters of form </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0 pe-0" src="images/17.jpg"></a>
+            </div>
+            <div class="col-md-4 d-md-flex d-none px-0">
+                <div class="box23 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ps-2 ">
+                        <a class="text-white" href="#"><b> Nick Knight x THE i7 </b>
+                            <h5> A meeting of visionaries </h5>
+                        </a>
                     </div>
+                    <a href="#" class="mysetting"><img class="img-fluid mysetting2" src="images/29.jpg"></a>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 px-0">
+                <div class="box24 box2 d-flex  align-items-end parent62">
+                    <div class="box1-text  d-flex flex-column  ps-lg-4 pb-lg-4 ">
+                        <a class="text-white" href="#">
+                            <b> BMW x Swarovski </b>
+                            <h5> The new light on the road </h5>
+                        </a>
+                    </div>
+                    <a href="#" class="mysetting"><img class="img-fluid pe-0 mysetting2" src="images/30.jpg"></a>
                 </div>
             </div>
         </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 px-0">
-                    <div class="box10 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#"><b> Dream drive </b>
-                                <h5> On the road with the new BMW 8 Series </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/18.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="box11 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#"><b> Goodbye, BMW i3 </b>
-                                <h5> This love never gets rusty </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/19.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="box12 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#">
-                                <i>icon</i>
-                                <b> Audio column </b>
-                                <h5> The future of audio and acoustics </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0 pe-0" src="images/20.jpg"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-8 px-0">
-                    <div class="box13 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column ps-5 pb-4 ">
-                            <a class="text-white" href="#"><b> BMW Esports Pimp my Rivalry </b>
-                                <h5> Sports meets design </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 pb-0 ps-0 " src="images/21.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-4 px-0 ">
-
-                    <div class="d-flex flex-column">
-                        <div class="box14 d-flex  align-items-end">
-                            <div class="box1-text  d-flex flex-column   ps-4 pb-4">
-                                <a class="text-white" href="#"><b> Rafael Lozano-Hemmer </b>
-                                    <h5> Visualizing the invisible </h5>
-                                </a>
-                            </div>
-                            <a href="#"><img class="w-100 p-1 ps-0 pt-0 pe-0" src="images/22.jpg"></a>
-
-                        </div>
-                        <div class="box15 d-flex  align-items-end">
-                            <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                                <a class="text-white" href="#"><b> Ride with pride  </b>
-                                    <h5> Celebrating all colors of Freude </h5>
-                                </a>
-                            </div>
-                            <a href="#"><img class="w-100 p-1 ps-0 pt-0 pe-0" src="images/23.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!--<div class="row">-->
+    <!--    <div class="col-12 text-dark bg-white d-flex justify-content-center mx-auto showmore">-->
+    <div class=" w-100 showmore">
+        <input type="button" value="Show more" class="mt-3 mb-4 border-dark text-dark show-more">
+    </div>
+    <!--    </div>-->
+    <!--</div>-->
 
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 px-0">
-                    <div class="box16 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4">
-                            <a class="text-white" href="#"><b> The iX1 Metaverse Experience </b>
-                                <h5> Enter a world full of dreams </h5>
-                            </a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-0">
+                <div class="footer-box d-flex w-100 mt-5">
+                    <div class="container--fixed d-flex flex-column">
+                        <div class="Country mb-5">
+                            <a class="text-white p-2" href="#"> English </a>
+                            <a class="link-footer p-2" href="#"> Deutsch </a>
+                            <a class="link-footer p-2" href="#"> Italiano </a>
+                            <a class="link-footer p-2" href="#"> Français </a>
+                            <a class="link-footer p-2" href="#"> Español </a>
+                            <a class="link-footer p-2" href="#"> 日本語 </a>
                         </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/18.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="box17 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column ps-4 pb-4 ">
-                            <a class="text-white" href="#"><b> Looks meet feel </b>
-                                <h5> Luxurious comfort zone: the magic of fabrics and materials </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/19.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="box18 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#">
-                                <i>icon</i>
-                                <b> THIS IS FORWARDISM </b>
-                                <h5> An audio series with the shapers of our future </h5>
-                            </a>
-                        </div>
-                        <a href="#"><video autoplay loop class="w-100 ">
-                                <source
-                                    src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/podcast/changing-lanes/fwd-00-teaser-hd.mp4"
-                                    type="video/mp4">
-                            </video></a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 px-0">
-                    <div class="d-flex flex-column">
-                        <div class="box19 d-flex  align-items-end">
-                            <div class="box1-text  d-flex flex-column   ps-5 pb-4">
-                                <a class="text-white" href="#"><b> Electric fleet </b>
-                                    <h5> Cannes, Côte d’Azur and BMW: a camera-ready cast </h5>
-                                </a>
-                            </div>
-                            <a href="#"><img class="w-100 p-1 pt-0 ps-0 img-fluid" src="images/26.jpg"></a>
-                        </div>
-                        <div class="box20 d-flex  align-items-end">
-                            <div class="box1-text  d-flex flex-column  ps-5 pb-4 ">
-                                <a class="text-white" href="#"><b> Audio column </b>
-                                    <h5> The future of circularity </h5>
-                                </a>
-                            </div>
-                            <a href="#"><img class="w-100 p-1 pt-0 ps-0 img-fluid" src="images/27.jpg"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-8 px-0">
-                    <div class="box21 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-5 pb-4 ">
-                            <a class="text-white" href="#"><b> Sustainable journey </b>
-                                <h5> Discover Japan with a horticulturist and the BMW iX </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 pt-0 ps-0 img-fluid" src="images/31.jpg"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 px-0">
-                    <div class="box22 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#"><b> 50 years of BMW M </b>
-                                <h5> 7 milestones in the history of BMW M </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/28.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="box23 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#"><b> Nick Knight x THE i7 </b>
-                                <h5> A meeting of visionaries </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0" src="images/29.jpg"></a>
-                    </div>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="box24 box2 d-flex  align-items-end">
-                        <div class="box1-text  d-flex flex-column  ps-4 pb-4 ">
-                            <a class="text-white" href="#">
-                                <b> BMW x Swarovski </b>
-                                <h5> The new light on the road </h5>
-                            </a>
-                        </div>
-                        <a href="#"><img class="w-100 p-1 pt-0 ps-0 pe-0" src="images/30.jpg"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class=" w-100 ">
-            <div class="row">
-                <div class="col-4 text-dark bg-white d-flex justify-content-center mx-auto showmore">
-                    <input type="button" value="  Show more " class="showmore  mt-3 mb-4 border-dark text-dark">
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 px-0">
-                    <div class="footer-box d-flex w-100 mt-5">
-                        <div class="container--fixed d-flex align-items-center flex-column">
-                            <div class="Country mb-5">
-                                <a class="text-white p-2" href="#"> English </a>
-                                <a class="link-footer p-2" href="#"> Deutsch </a>
-                                <a class="link-footer p-2" href="#"> Italiano </a>
-                                <a class="link-footer p-2" href="#"> Français </a>
-                                <a class="link-footer p-2" href="#"> Español </a>
-                                <a class="link-footer p-2" href="#"> 日本語 </a>
-                            </div>
-
-                            <div class="soton text-white d-flex flex-row">
-                                <div class="Column1">
-                                    <div class="heading-footer ">
-                                        <h5 class="border-bottom2 text-white">Quick Links</h5>
-                                    </div>
-                                    <ul class="ps-0">
-                                        <li class="pb-2"><a class="link-footer" href="#"> Home </a></li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> BMW in your country </a></li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> BMW Group Careers </a></li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> EU Detergents <br> Regulation
-                                            </a>
-                                        </li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> REACH Regulation </a></li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> Compatibility Check </a></li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> Software Update </a></li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> Accessories Update </a></li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> Autonomous Driving </a></li>
-                                        <li class="pb-2"><a class="link-footer" href="#"> Service Page Charging <br>
-                                                Products
-                                            </a></li>
-                                    </ul>
+                        <div class="soton text-white d-flex flex-column flex-lg-row">
+                            <div class="Column1">
+                                <div class="heading-footer ">
+                                    <h5 class="border-bottom2 text-white">Quick Links</h5>
                                 </div>
-                                <div class="Column2 ">
-                                    <div class="heading-footer ">
-                                        <h5 class="border-bottom2 text-white">More BMW Websites</h5>
-                                    </div>
-                                    <ul class="ps-0">
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW M </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW Motorsport </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW Golfsport </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW Driving Experience </a>
-                                        </li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW Welt </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW Group Classic </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW Corporate/Direct Sales
-                                            </a>
-                                        </li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW Group </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> BMW Group Culture </a></li>
-
-                                    </ul>
-                                </div>
-                                <div class="Column3 ">
-                                    <div class="heading-footer ">
-                                        <h5 class="border-bottom2 text-white">BMW.com</h5>
-                                    </div>
-                                    <ul class="ps-0">
-                                        <li class="pb-2"><a class="link-footer " href="#"> About BMW.com </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> Contact </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> Cookies </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> Imprint </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> Legal Notice / Data <br>
-                                                protection
-                                            </a></li>
-                                    </ul>
-                                </div>
-                                <div class="Column4 ">
-                                    <div class="heading-footer ">
-                                        <h5 class="border-bottom2 text-white">Visit us on</h5>
-                                    </div>
-                                    <ul class="ps-0">
-                                        <li class="pb-2"><a class="link-footer " href="#"> Facebook </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> Twitter </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> Instagram </a></li>
-                                        <li class="pb-2"><a class="link-footer " href="#"> YouTube </a></li>
-                                    </ul>
-                                </div>
-
+                                <ul class="ps-0">
+                                    <li class="pb-2"><a class="link-footer" href="#"> Home </a></li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> BMW in your country </a></li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> BMW Group Careers </a></li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> EU Detergents <br> Regulation
+                                        </a>
+                                    </li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> REACH Regulation </a></li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> Compatibility Check </a></li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> Software Update </a></li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> Accessories Update </a></li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> Autonomous Driving </a></li>
+                                    <li class="pb-2"><a class="link-footer" href="#"> Service Page Charging <br>
+                                            Products
+                                        </a></li>
+                                </ul>
                             </div>
-                            <div class="box-end d-flex align-items-end justify-content-start text-white soton">
-                                <div>
-                                    <p>© BMW AG 2022</p>
+                            <div class="Column2 ">
+                                <div class="heading-footer ">
+                                    <h5 class="border-bottom2 text-white">More BMW Websites</h5>
                                 </div>
+                                <ul class="ps-0">
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW M </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW Motorsport </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW Golfsport </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW Driving Experience </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW Welt </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW Group Classic </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW Corporate/Direct Sales</a>
+                                    </li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW Group </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> BMW Group Culture </a></li>
 
+                                </ul>
+                            </div>
+                            <div class="Column3 ">
+                                <div class="heading-footer ">
+                                    <h5 class="border-bottom2 text-white">BMW.com</h5>
+                                </div>
+                                <ul class="ps-0">
+                                    <li class="pb-2"><a class="link-footer " href="#"> About BMW.com </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> Contact </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> Cookies </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> Imprint </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> Legal Notice / Data <br>
+                                            protection
+                                        </a></li>
+                                </ul>
+                            </div>
+                            <div class="Column4 ">
+                                <div class="heading-footer ">
+                                    <h5 class="border-bottom2 text-white">Visit us on</h5>
+                                </div>
+                                <ul class="ps-0">
+                                    <li class="pb-2"><a class="link-footer " href="#"> Facebook </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> Twitter </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> Instagram </a></li>
+                                    <li class="pb-2"><a class="link-footer " href="#"> YouTube </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="box-end d-flex align-items-end justify-content-start text-white copy-write">
+                            <div>
+                                <p>© BMW AG 2022</p>
                             </div>
 
                         </div>
@@ -605,8 +598,10 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAyVBMVEX///
                     </div>
 
                 </div>
+
             </div>
         </div>
+    </div>
     </div>
 </body>
 

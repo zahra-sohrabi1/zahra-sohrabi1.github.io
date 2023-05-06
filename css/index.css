@@ -10,9 +10,14 @@ body {
 
 }
 
-/* .custom-overflow{
-    overflow: hidden;
-} */
+nav {
+    z-index: 3;
+    width: 100%;
+}
+
+.border-bottom {
+    padding-top: 5px;
+}
 
 li {
     list-style-type: none;
@@ -26,26 +31,26 @@ a {
     position: relative;
 }
 
-.menu {
+/* .menu {
     position: absolute;
     top: 0;
     left: 20%;
     z-index: 10;
-}
+} */
 
-.item-list {
+/* .item-list {
     padding-left: 0;
     margin-bottom: 14px;
-}
+} */
 
 .logo {
     display: flex;
-    align-items: end;
+    align-items: center;
 }
 
 .logo img {
-    width: 73px;
-    height: 73px;
+    width: 70px;
+    height: 70px;
     /* margin-left: 30px; */
 }
 
@@ -64,18 +69,6 @@ a {
     border-bottom: 1px solid #0a53be;
 }
 
-
-/* 
-.top-banner img {
-    width: 100%;
-    height: 100%;
-    transform: scale(1);
-    transition: all 1000ms linear 0s;
-}
-
-.top-banner img:hover {
-    transform: scale(1.01);
-} */
 .parent62 {
     position: relative;
     overflow: hidden;
@@ -104,9 +97,10 @@ a {
 
 .child45 {
     bottom: 70px;
-    width: 1024px;
-    height: 656px;
+    /* width: 1024px;
+    height: 656px; */
     left: 70px;
+    z-index: 10;
 
 }
 
@@ -126,7 +120,7 @@ a {
 .Minor {
     /* width: 1100px;
     height: 210px; */
-    margin: 30px auto;
+    /*margin: 30px auto;*/
 
 }
 
@@ -150,12 +144,15 @@ a {
     height: 434.98px;
     margin-right: 60px;
 
+
 }
 
 .black-box-img {
+    position: relative;
     width: 1447px;
     height: 490.98px;
     margin-left: 20px;
+    display: -webkit-box
 }
 
 .teaser {
@@ -172,6 +169,7 @@ a {
     position: absolute;
     top: 75%;
     padding-left: 10px;
+    z-index: 3;
 }
 
 .teaser img {
@@ -200,28 +198,8 @@ a {
 
 .box1-text {
     position: absolute;
+    z-index: 3;
 
-}
-
-.box2,
-.box3 {
-    background-size: cover;
-    background-position: center;
-
-}
-
-.box2 video,
-.box3 img {
-    height: 100%;
-}
-
-.box1,
-.box3 img {
-    width: 100%;
-}
-
-.box2 {
-    width: 100%;
 }
 
 .box-white2 {
@@ -237,26 +215,24 @@ a {
 }
 
 .footer-box {
-    width: 100%;
-    height: 711px;
+    justify-content: space-around;
     padding: 20px 0px;
     background-color: #262626;
 }
 
 .container--fixed {
-    width: 100%;
-    height: 621px;
+    /*width: 100%;*/
+    /*height: 621px;*/
     padding: 25px 0px;
 }
 
 .Country {
-    margin-left: -550px;
-
+    /*margin-left: -550px;*/
 }
 
 
 .soton {
-    padding-left: 100px;
+    /*padding-left: 100px;*/
 }
 
 .link-footer {
@@ -274,9 +250,8 @@ a {
 
 .Column1,
 .Column2,
-.Column3,
-.Column4 {
-    padding-right: 100px;
+.Column3{
+    padding-right: 50px;
 }
 
 .border-bottom2 {
@@ -310,18 +285,77 @@ a {
     position: relative;
     overflow: hidden;
 }
+.show-more {
+    width: 350px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.showmore {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-@media all and (max-width:767px) {
-    .showmore {
-        width: 707px;
-        height: 50px;
-        background-color: transparent;
-        border: 2px solid white;
+@media all and (max-width: 991px) {
+    .Country {
+        text-align: center;
         margin: 10px auto;
+
+    }
+
+    .font {
+        font-size: 50px;
+    }
+    .footer-box {
+        justify-content: flex-start;
+    }
+    .container--fixed {
+        width: 100%;
+
+    }
+    .soton {
+        padding-left: 50px;
+    }
+    .heading-footer {
+        width: 100%;
+    }
+    .border-bottom2 {
+        width: 100%;
+    }
+    .copy-write {
+        justify-content: center !important;
+        padding-left: 0 !important;
+    }
+
+
+    .show-more {
+        width: 60%;
+    }
+    h5 {
+        font-size: 10px;
+    }
+    b{
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .navbar-nav {
+        border-bottom: none !important;
+    }
+    .font {
+        font-size: 20px;
+    }
+
+    .child45 {
+        top: 200px;
+        bottom: initial;
     }
 
     .ordercopy {
-        width: 707px;
+        width: 60%;
         height: 50px;
     }
 
@@ -330,4 +364,40 @@ a {
 
     }
 
+    h5 {
+        font-size: 10px;
+    }
+    b{
+        font-size: 10px;
+    }
+   
+}
+@media all and (max-width: 575px){
+    h5 {
+        font-size: 5px;
+    }
+    b{
+        font-size: 5px;
+    }
+
+}
+
+.mysetting {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+    overflow: hidden;
+}
+
+.mysetting2 {
+    width: 100%;
+    transition: all 2000ms linear 0s !important;
+}
+
+.parent62 {
+    overflow: hidden !important;
+}
+
+.parent62:hover .mysetting2 {
+    transform: scale(1.1) !important;
 }
